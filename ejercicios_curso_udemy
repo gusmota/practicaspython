@@ -1,0 +1,112 @@
+#16---Crea un programa que escriba "Buenos días" en pantalla
+ # print('Buenos dias')
+########################################################
+#17---Crea un programa que escriba el producto de 12 y 13.
+ # n1= int(12)
+ # n2= int(13)
+ # print(n1*n2)
+########################################################
+#18---Pregunta al usuario su nombre y su apellido y escribe "Hola, Sr." seguido de su apellido y luego de su nombre (por ejemplo, "Hola, Sr. Cabanes, Nacho").
+ # nombre=input('cual es su nombre: ')
+ # apellido= input('cual es su apellido: ')
+ # print('Hola Sr ',nombre,  apellido)
+##########################################################################################
+#19---Pide al usuario un número entero y responde si es par o impar (pista: es par si el resto de la división entre 2 es 0).
+# entero=int(input('dime un numero entero: '))
+# if entero % 2 == 0:
+#   print('es par')
+# else:
+#   print('es impar')
+#########################################################################################
+#19.1---Pide un numero real y responde si es positivo, negativo o cero
+# entero = float(input('dime un numero: '))
+# if entero > 0:
+#     print('es mayor')
+# else:
+#     if entero == 0:
+#         print('es cero')
+#     else:
+#         print('es negativo')
+#########################################
+#19.2---Pide dos numeros enteros y muestra en pantala su división 
+# n1 = int(input('dime un numero: '))
+# n2 = int(input('dime otro numero: '))
+# if n2 != 0:
+#        print(n1/n2)
+# else:
+#     print('no se puede dividir entre cero') 
+#################################################################3333
+#Pide un número real y responde si es positivo, negativo o cero, empleando "elif".
+# n1 = int(input('dime un numero:'))
+# if n1 > 0:
+#     print('es positivo')
+# elif n1 <0:
+#     print('es cero')
+# else:
+#      print('es negativo')
+#####################################################################################
+#pide al usuario un numero entero del 1 al 12 y escribe el nombre del mes correspondiente (1=enero, 12=diciembre)
+
+# numero = int(input('dime un numero: '))
+# if numero == 1:
+#     print('en
+#     print('marzo')
+# else:
+#     print('otro')                                                                                                                                                                                                                                                                                               
+##############################################################################################################3
+#Crea un programa que pida al usuario que introduzca la suma de 135 y 768. Deberá repetirse hasta que introduzca el resultado correcto.
+# total = int(input('la suma de 135 + 768 es igual a: '))
+# while total != 903:
+#     total = int(input('ingresa el dato correcto: '))
+# else:
+#     print('es correcto')
+##########################################################################################
+#pide un codigo y una contraseña al usuario. no se le dejara proseguir hasta que el codigo sea 1234 y contraseña 5000
+# codigo = int(input('ingresa el codigo: '))
+# contraseña = int(input('ingresa la contraseña: '))
+# while codigo != 1234:
+#     codigo = int(input('ingresa el codigo correcto: '))
+# while contraseña != 5000:
+#     contraseña = int(input('ingresa la contraseña correcta: '))
+# else:
+#     print('es correcto')
+####################################################################################################333
+#Crea un programa que pida al usuario que introduzca su nombre y un número entero, y escriba su nombre en pantalla tantas veces como indique ese número entero.
+# nombre = input('escribe tu nombre: ')
+# no = int(input('escribe un numero entero: '))
+# for i in range(1,no):
+#     print(nombre)
+#####################################################################################################3
+#Crea un array con los números 10, 20, 30, 40, 50 y luego muestra los que hay en las posiciones impares (primero, tercero y quinto: 10, 30 y 50).
+#pide al usuario un numero entero y muestra la tabla de multiplicar
+# tabla = int(input("¿Qué tabla de multiplicar quieres? "))
+# for n in range(1, 11):
+#     print(tabla, "x", n, "=", tabla*n)
+#########################################################################################################3
+# #crea un array con los numeros 10, 20, 30, 40, 50
+# datos = [1,3,4,5,6,7,8,9]
+# print(datos[5])
+# for i in range(1,5):
+#    print(datos[])
+# <<
+
+#Pregunta su nombre al usuario y responde:
+ #Su inicial
+ #La cantidad de letras
+ #La última letra
+ #Su nombre en mayúsculas
+ #Su nombre al revés
+ #La cantidad de vocales que contiene
+# Crea una función que reciba 3 números y devuelva su suma.
+#Usando IDLE o PyCharm, crea un programa que te pregunte un número y escriba la palabra "Hola" tantas veces como indique ese número.
+#Pide al usuario 3 frases y guárdalas en un fichero "frases.txt".
+#Pide al usuario el nombre de un fichero. Si el fichero existe, muestra su contenido (pero no como lista, sino las líneas una a una) y si no existe, escribe un mensaje de error adecuado
+#Pide al usuario dos números enteros, y da el valor True a una variable booleana llamada "ambosPares" en caso de que las dos sean pares, o el valor False en caso contrario. El programa debe comenzar con un comentario que diga de qué trata y otro que diga tu nombre.
+#Pide al usuario un número entero del 1 al 7 y escribe el nombre del día de la semana correspondiente (1=lunes, 7=domingo), usando una tupla.
+
+
+
+
+
+
+
