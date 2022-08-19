@@ -8,7 +8,7 @@
 
 resp =True
 while resp != 0:
-   entrada = input('dime una letra: ')
+   entrada = input('dime una letra: ').lower()
    lista=('abcdefghijklmnopqrstuvwxyz')
    resp = int(input('escribe (1)= para seguir activo o (0) para cerrar el programa: '))
    let = lista.index(entrada)
