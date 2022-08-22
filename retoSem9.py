@@ -12,7 +12,7 @@ def calcularletras(n1, n2, n3):
 resp =True
 while resp != 0:
     n2 = input('dime una letra: ').lower()
-    lista=('abcdefghijklmnopqrstuvwxyz')
+    lista=('abcdefghijklmnopqrstuvwxyza')
     let = lista.index(n2)
     n1= (lista[let-1])
     n3= (lista[let+1])
