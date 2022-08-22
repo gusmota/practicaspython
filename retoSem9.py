@@ -6,32 +6,19 @@
 #  a la ingresada.3. El programa debe continuar en el bucle hasta que el usuario \
 # decida salir del programa
 
-resp =True
-while resp != 0:
-   entrada = input('dime una letra: ').lower()
-   lista=('abcdefghijklmnopqrstuvwxyz')
-   resp = int(input('escribe (1)= para seguir activo o (0) para cerrar el programa: '))
-   let = lista.index(entrada)
-   ant = lista[let-1]
-   sig = lista[let+1]
-   print(ant, entrada, sig)
-   if resp == 0:
-    break
-print('fin del programa')
-
-####################################################################################333
+def calcularletras(n1, n2, n3):
+    return (n1, n2, n3)
 
 resp =True
 while resp != 0:
-   entrada = input('dime una letra: ').lower()
-   lista=('abcdefghijklmnopqrstuvwxyz')
-   resp = int(input('escribe (1)= para seguir activo o (0) para cerrar el programa: '))
-   let = lista.index(entrada)
-   def ant():
-    ant = lista[let-1]
-   def sig():
-    sig = lista[let+1]
-   print(ant, entrada, sig)
-   if resp == 0:
-    break
-print('fin del programa')
+    n2 = input('dime una letra: ').lower()
+    lista=('abcdefghijklmnopqrstuvwxyz')
+    let = lista.index(n2)
+    n1= (lista[let-1])
+    n3= (lista[let+1])
+    letras = calcularletras(n1, n2, n3)
+    print(letras)
+    resp = int(input('escribe (1)= para seguir activo o (0) para cerrar el programa: '))
+    if resp == 0:
+        print('fin del programa')
+        break
