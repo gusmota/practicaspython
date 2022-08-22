@@ -8,6 +8,7 @@
 
 def calcularletras(n1, n2, n3):
     return (n1, n2, n3)
+'''A partir de la letra ingresada, calcula la letra previa y letra siguiente'''
 
 resp =True
 while resp != 0:
