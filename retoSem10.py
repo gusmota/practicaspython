@@ -1,4 +1,3 @@
-
 # crear un programa Que permita crear dos listas de distintas longitudes.
 # ● Que la longitud y los elementos de cada lista sean especificados por el usuario.
 # ● Que imprima las listas indicando que son las listas originales.
