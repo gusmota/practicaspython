@@ -7,7 +7,9 @@
 
 def graficar(venta, color):
     plt.bar (venta.keys(), venta.values(), color=color)
-    
+    """
+    Función que permite hacer una gráfica
+    """
 
 import matplotlib.pyplot as plt
 
